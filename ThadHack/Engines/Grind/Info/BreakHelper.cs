@@ -1,11 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using ZzukBot.GUI_Forms;
 using ZzukBot.Mem;
+using ZzukBot.Objects;
 using ZzukBot.Settings;
 
 namespace ZzukBot.Engines.Grind.Info
 {
     internal class _BreakHelper
     {
+        private NearbyPlayersHelper NearbyPlayersHelper = new NearbyPlayersHelper();
+
         private bool _NeedToBreak;
         private int BreakAt;
 
@@ -41,6 +46,12 @@ namespace ZzukBot.Engines.Grind.Info
                             _NeedToBreak = false;
                         }
                     }
+                    return true;
+                }
+                else if (NearbyPlayersHelper.NeedToBreak)
+                {
+                    ResumeAt = Environment.TickCount + Options.BreakFor * 60 * 1000 + this.ran.Next(-120000, 120000);
+                    _NeedToBreak = true;
                     return true;
                 }
                 if (Environment.TickCount > BreakAt)
