@@ -2,6 +2,8 @@
 using ZzukBot.FSM;
 using ZzukBot.Helpers;
 using ZzukBot.Mem;
+using System.Collections.Generic;
+using ZzukBot.Objects;
 
 namespace ZzukBot.Engines.Grind.States
 {
@@ -23,6 +25,23 @@ namespace ZzukBot.Engines.Grind.States
 
         internal override void Run()
         {
+            //Open Clams
+            using (List<WoWItem>.Enumerator enumerator = ObjectManager.Items.GetEnumerator())
+            {
+                while (enumerator.MoveNext())
+                {
+                    if (enumerator.Current.Name.ToLower().Contains("clam"))
+                    {
+                        ObjectManager.Player.Inventory.UseItem(enumerator.Current);
+                        if (Wait.For("OpenClamDelay", 500, true))
+                        {
+                            ObjectManager.Player.LootAll();
+                        }
+                    }
+                }
+            }
+
+
             var mob = Grinder.Access.Info.Loot.LootableMob;
             if (mob == null) return;
             if (mob.Guid != oldMobGuid)

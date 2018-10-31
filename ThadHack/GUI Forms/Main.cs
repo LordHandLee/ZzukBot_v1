@@ -39,32 +39,32 @@ namespace ZzukBot.GUI_Forms
             PrepareForLaunch();
 
             var loadDetour = "MOV [0xCE8978], EAX[|]" +
-"pushfd[|]" +
-"pushad[|]" +
-"push EAX[|]" +
-"call [|addr|][|]" +
-"popad[|]" +
-"popfd[|]" +
-"jmp 0x006CA233[|]";
+                             "pushfd[|]" +
+                             "pushad[|]" +
+                             "push EAX[|]" +
+                             "call [|addr|][|]" +
+                             "popad[|]" +
+                             "popfd[|]" +
+                             "jmp 0x006CA233[|]";
             var memcpyDetour = "PUSH ESI[|]" +
-        "PUSH EDI[|]" +
-        "CLD[|]" +
-        "MOV EDX, [ESP+20][|]" +
-        "MOV ESI, [ESP+16][|]" +
-        "MOV EAX, [ESP+12][|]" +
-        "MOV ECX, EDX[|]" +
-        "MOV EDI, EAX[|]" +
-        "pushfd[|]" +
-        "pushad[|]" +
-        "PUSH EDI[|]" +
-        "PUSH ECX[|]" +
-        "PUSH ESI[|]" +
-        "call [|addr|][|]" +
-        "popad[|]" +
-        "popfd[|]" +
-        "POP EDI[|]" +
-        "POP ESI[|]" +
-        "jmp [|addr|][|]";
+                             "PUSH EDI[|]" +
+                             "CLD[|]" +
+                             "MOV EDX, [ESP+20][|]" +
+                             "MOV ESI, [ESP+16][|]" +
+                             "MOV EAX, [ESP+12][|]" +
+                             "MOV ECX, EDX[|]" +
+                             "MOV EDI, EAX[|]" +
+                             "pushfd[|]" +
+                             "pushad[|]" +
+                             "PUSH EDI[|]" +
+                             "PUSH ECX[|]" +
+                             "PUSH ESI[|]" +
+                             "call [|addr|][|]" +
+                             "popad[|]" +
+                             "popfd[|]" +
+                             "POP EDI[|]" +
+                             "POP ESI[|]" +
+                             "jmp [|addr|][|]";
 
             SendOvers.WardenLoadDetour = loadDetour.Split(new string[] { "[|]" }, StringSplitOptions.RemoveEmptyEntries);
             SendOvers.WardenMemCpyDetour = memcpyDetour.Split(new string[] { "[|]" }, StringSplitOptions.RemoveEmptyEntries);
