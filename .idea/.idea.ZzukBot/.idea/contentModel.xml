@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kkickstein\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kkickstein\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_ZzukBot.451985444.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kkickstein\Development\ZzukBot_v1" t="IncludeFlat">
+      <e p="C++_Lumpy_Navigation\Navigation" t="Include">
+        <e p="dllmain.cpp" t="Include" />
+        <e p="Include\recastnavigation\Detour\Source" t="Include">
+          <e p="DetourAlloc.cpp" t="Include" />
+          <e p="DetourCommon.cpp" t="Include" />
+          <e p="DetourNavMesh.cpp" t="Include" />
+          <e p="DetourNavMeshBuilder.cpp" t="Include" />
+          <e p="DetourNavMeshQuery.cpp" t="Include" />
+          <e p="DetourNode.cpp" t="Include" />
+        </e>
+        <e p="Include\recastnavigation\Recast\Include" t="Include">
+          <e p="Recast.h" t="Include" />
+          <e p="RecastAlloc.h" t="Include" />
+          <e p="RecastAssert.h" t="Include" />
+        </e>
+        <e p="Include\recastnavigation\Recast\Source" t="Include">
+          <e p="Recast.cpp" t="Include" />
+          <e p="RecastAlloc.cpp" t="Include" />
+          <e p="RecastArea.cpp" t="Include" />
+          <e p="RecastContour.cpp" t="Include" />
+          <e p="RecastFilter.cpp" t="Include" />
+          <e p="RecastLayers.cpp" t="Include" />
+          <e p="RecastMesh.cpp" t="Include" />
+          <e p="RecastMeshDetail.cpp" t="Include" />
+          <e p="RecastRasterization.cpp" t="Include" />
+          <e p="RecastRegion.cpp" t="Include" />
+        </e>
+        <e p="MoveMap.cpp" t="Include" />
+        <e p="MoveMap.h" t="Include" />
+        <e p="MoveMapSharedDefines.h" t="Include" />
+        <e p="Navigation.cpp" t="Include" />
+        <e p="Navigation.h" t="Include" />
+        <e p="PathFinder.cpp" t="Include" />
+        <e p="PathFinder.h" t="Include" />
+      </e>
+      <e p="C++_Lumpy_Navigation\VC120" t="IncludeRecursive">
+        <e p="detour.vcxproj" t="IncludeRecursive" />
+        <e p="Navigation.vcxproj" t="IncludeRecursive" />
+        <e p="recast.vcxproj" t="IncludeRecursive" />
+      </e>
+      <e p="DomainManager" t="IncludeRecursive">
+        <e p="AssemblyLoader.cs" t="Include" />
+        <e p="Domain.cs" t="Include" />
+        <e p="DomainManager.cs" t="Include" />
+        <e p="DomainManager.csproj" t="IncludeRecursive" />
+        <e p="EntryPoint.cs" t="Include" />
+        <e p="ExceptionHandler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FastCallDll" t="IncludeRecursive">
+        <e p="dllmain.cpp" t="Include" />
+        <e p="FastCallDll.vcxproj" t="IncludeRecursive" />
+        <e p="stdafx.h" t="Include" />
+        <e p="targetver.h" t="Include" />
+      </e>
+      <e p="Loader" t="IncludeRecursive">
+        <e p="Loader.vcxproj" t="IncludeRecursive" />
+        <e p="Main.cpp" t="Include" />
+      </e>
+      <e p="NetInject" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pathfinder" t="Include" />
+      <e p="Release" t="ExcludeRecursive">
+        <e p="Internal" t="ExcludeRecursive" />
+      </e>
+      <e p="ThadHack" t="IncludeRecursive">
+        <e p="AntiWarden" t="Include">
+          <e p="HookModule32.cs" t="Include" />
+          <e p="HookWardenMemScan.cs" t="Include" />
+        </e>
+        <e p="app.manifest" t="Include" />
+        <e p="Constants" t="Include">
+          <e p="Enums.cs" t="Include" />
+          <e p="GameConstants.cs" t="Include" />
+          <e p="Offsets.cs" t="Include" />
+          <e p="Strings.cs" t="Include" />
+          <e p="Structs.cs" t="Include" />
+          <e p="WinImports.cs" t="Include" />
+        </e>
+        <e p="Engines" t="Include">
+          <e p="CustomClass" t="Include">
+            <e p="CCManager.cs" t="Include" />
+            <e p="CodeCompiler.cs" t="Include" />
+            <e p="CreatureType.cs" t="Include" />
+            <e p="CustomClass.cs" t="Include" />
+            <e p="Objects" t="Include">
+              <e p="_Pet.cs" t="Include" />
+              <e p="_Player.cs" t="Include" />
+              <e p="_Target.cs" t="Include" />
+              <e p="_Unit.cs" t="Include" />
+            </e>
+            <e p="PlayerClass.cs" t="Include" />
+          </e>
+          <e p="EngineManager.cs" t="Include" />
+          <e p="Grind" t="Include">
+            <e p="Grinder.cs" t="Include" />
+            <e p="GrindProfile.cs" t="Include" />
+            <e p="Info" t="Include">
+              <e p="BreakHelper.cs" t="Include" />
+              <e p="Combat.cs" t="Include" />
+              <e p="Loot.cs" t="Include" />
+              <e p="Path" t="Include">
+                <e p="Base" t="Include">
+                  <e p="BasePath.cs" t="Include" />
+                  <e p="SubPath.cs" t="Include" />
+                </e>
+                <e p="PathAfterFightToWaypoint.cs" t="Include" />
+                <e p="pathBackup.cs" t="Include" />
+                <e p="pathForceBackup.cs" t="Include" />
+                <e p="PathManager.cs" t="Include" />
+                <e p="PathSafeGhostwalk.cs" t="Include" />
+                <e p="PathToPosition.cs" t="Include" />
+                <e p="PathToUnit.cs" t="Include" />
+              </e>
+              <e p="RareSpotter.cs" t="Include" />
+              <e p="Rest.cs" t="Include" />
+              <e p="SpiritWalk.cs" t="Include" />
+              <e p="Target.cs" t="Include" />
+              <e p="Vendor.cs" t="Include" />
+              <e p="Waypoints.cs" t="Include" />
+            </e>
+            <e p="Info.cs" t="Include" />
+            <e p="Shared.cs" t="Include" />
+            <e p="States" t="Include">
+              <e p="stateAfterFightToPath.cs" t="Include" />
+              <e p="stateApproachTarget.cs" t="Include" />
+              <e p="stateBuff.cs" t="Include" />
+              <e p="StateDoRandomShit.cs" t="Include" />
+              <e p="stateFight.cs" t="Include" />
+              <e p="StateFindTarget.cs" t="Include" />
+              <e p="StateGhostWalk.cs" t="Include" />
+              <e p="StateIdle.cs" t="Include" />
+              <e p="StateLoadNextHotspot.cs" t="Include" />
+              <e p="StateLoadNextWaypoint.cs" t="Include" />
+              <e p="StateLoot.cs" t="Include" />
+              <e p="StateReleaseSpirit.cs" t="Include" />
+              <e p="StateRepair.cs" t="Include" />
+              <e p="stateRest.cs" t="Include" />
+              <e p="stateStartBreak.cs" t="Include" />
+              <e p="StateWaitAfterFight.cs" t="Include" />
+              <e p="StateWalk.cs" t="Include" />
+              <e p="stateWalkBackToGrind.cs" t="Include" />
+              <e p="stateWalkToRepair.cs" t="Include" />
+            </e>
+            <e p="StuckHelper.cs" t="Include" />
+          </e>
+          <e p="ProfileCreation" t="Include">
+            <e p="ProfileCreator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="FSM" t="Include">
+          <e p="Engine.cs" t="Include" />
+          <e p="State.cs" t="Include" />
+        </e>
+        <e p="GreyMagic" t="Include">
+          <e p="AllocatedMemory.cs" t="Include" />
+          <e p="ExternalProcessReader.cs" t="Include" />
+          <e p="InProcessMemoryReader.cs" t="Include" />
+          <e p="Internals" t="Include">
+            <e p="DetourManager.cs" t="Include" />
+            <e p="Manager.cs" t="Include" />
+            <e p="PatchManager.cs" t="Include" />
+          </e>
+          <e p="MarshalCache.cs" t="Include" />
+          <e p="MemoryBase.cs" t="Include" />
+          <e p="MemoryProtectionOperation.cs" t="Include" />
+          <e p="MissingAttributeException.cs" t="Include" />
+          <e p="Native" t="Include">
+            <e p="Imports.cs" t="Include" />
+            <e p="PeHeaderParser.cs" t="Include" />
+          </e>
+          <e p="SafeMemoryHandle.cs" t="Include" />
+          <e p="Utilities.cs" t="Include" />
+        </e>
+        <e p="GUI Forms" t="Include">
+          <e p="CC Selector.cs" t="Include" />
+          <e p="CC Selector.Designer.cs" t="Include" />
+          <e p="CC Selector.resx" t="Include" />
+          <e p="LoginForm.cs" t="Include" />
+          <e p="LoginForm.Designer.cs" t="Include" />
+          <e p="LoginForm.resx" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="Main.Designer.cs" t="Include" />
+          <e p="Main.resx" t="Include" />
+          <e p="RestockItem.cs" t="Include" />
+          <e p="RestockItem.Designer.cs" t="Include" />
+          <e p="RestockItem.resx" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="Calc.cs" t="Include" />
+          <e p="DebugAssist.cs" t="Include" />
+          <e p="HardwareId.cs" t="Include" />
+          <e p="IrcDotNet" t="Include">
+            <e p="CircularBufferStream.cs" t="Include" />
+            <e p="Collections" t="Include">
+              <e p="CollectionsUtilities.cs" t="Include" />
+              <e p="ReadOnlyDictionary.cs" t="Include" />
+              <e p="ReadOnlySet.cs" t="Include" />
+            </e>
+            <e p="CollectionUtilities.cs" t="Include" />
+            <e p="Ctcp" t="Include">
+              <e p="CtcpClient.cs" t="Include" />
+              <e p="CtcpClientMessageProcessing.cs" t="Include" />
+              <e p="CtcpClientMessageSending.cs" t="Include" />
+              <e p="CtcpEventArgs.cs" t="Include" />
+            </e>
+            <e p="DebugUtilities.cs" t="Include" />
+            <e p="IIrcFloodPreventer.cs" t="Include" />
+            <e p="IIrcMessageReceiveHandler.cs" t="Include" />
+            <e p="IIrcMessageReceiver.cs" t="Include" />
+            <e p="IIrcMessageSendHandler.cs" t="Include" />
+            <e p="IIrcMessageSource.cs" t="Include" />
+            <e p="IIrcMessageTarget.cs" t="Include" />
+            <e p="IrcChannel.cs" t="Include" />
+            <e p="IrcChannelCollection.cs" t="Include" />
+            <e p="IrcChannelInfo.cs" t="Include" />
+            <e p="IrcChannelUser.cs" t="Include" />
+            <e p="IrcChannelUserCollection.cs" t="Include" />
+            <e p="IrcClient.cs" t="Include" />
+            <e p="IrcClientMessageProcessing.cs" t="Include" />
+            <e p="IrcClientMessageSending.cs" t="Include" />
+            <e p="IrcEventArgs.cs" t="Include" />
+            <e p="IrcLocalUser.cs" t="Include" />
+            <e p="IrcNetworkInfo.cs" t="Include" />
+            <e p="IrcRegistrationInfo.cs" t="Include" />
+            <e p="IrcServer.cs" t="Include" />
+            <e p="IrcServerInfo.cs" t="Include" />
+            <e p="IrcServerStatisticalEntry.cs" t="Include" />
+            <e p="IrcStandardFloodPreventer.cs" t="Include" />
+            <e p="IrcTargetMask.cs" t="Include" />
+            <e p="IrcUser.cs" t="Include" />
+            <e p="IrcUserCollection.cs" t="Include" />
+            <e p="IrcUtilities.cs" t="Include" />
+            <e p="MessageProcessorAttribute.cs" t="Include" />
+            <e p="ReflectionUtilities.cs" t="Include" />
+            <e p="SafeLineReader.cs" t="Include" />
+            <e p="StandardIrcClient.cs" t="Include" />
+            <e p="TextUtilities.cs" t="Include" />
+            <e p="TwitchIrcClient.cs" t="Include" />
+          </e>
+          <e p="IrcMonitor.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+          <e p="Wait.cs" t="Include" />
+          <e p="Waypoint.cs" t="Include" />
+        </e>
+        <e p="Hooks" t="Include">
+          <e p="ChatHook.cs" t="Include" />
+          <e p="ErrorEnumHook.cs" t="Include" />
+        </e>
+        <e p="Ingame" t="Include">
+          <e p="Inventory.cs" t="Include" />
+          <e p="Navigation.cs" t="Include" />
+          <e p="Spells.cs" t="Include" />
+        </e>
+        <e p="Mem" t="Include">
+          <e p="DirectX.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="Functions.cs" t="Include" />
+          <e p="GetEndScene.cs" t="Include" />
+          <e p="GlobalHooks.cs" t="Include" />
+          <e p="Hacks.cs" t="Include" />
+          <e p="Libs.cs" t="Include" />
+          <e p="LoginBlock.cs" t="Include" />
+          <e p="LuaQueue.cs" t="Include" />
+          <e p="Memory.cs" t="Include" />
+          <e p="ObjectManager.cs" t="Include" />
+          <e p="Relog.cs" t="Include" />
+          <e p="WindowProcHook.cs" t="Include" />
+        </e>
+        <e p="ObfuscationSettings.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Objects" t="Include">
+          <e p="LocalPlayer.cs" t="Include" />
+          <e p="WoWGameObject.cs" t="Include" />
+          <e p="WoWItem.cs" t="Include" />
+          <e p="WoWObject.cs" t="Include" />
+          <e p="WoWUnit.cs" t="Include" />
+        </e>
+        <e p="OOP" t="Include">
+          <e p="Launch.cs" t="Include" />
+          <e p="Settings.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="beep" t="Include" />
+          <e p="FastCallDll.dll" t="Include" />
+          <e p="favicon.ico" t="Include" />
+          <e p="Navigation.dll" t="Include" />
+          <e p="zb.bmp" t="Include" />
+        </e>
+        <e p="Server" t="Include">
+          <e p="AuthClient" t="Include">
+            <e p="AuthClientHandler.cs" t="Include" />
+            <e p="AuthProcessor.cs" t="Include" />
+            <e p="SendOvers.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="PacketModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Settings" t="Include">
+          <e p="OptionManager.cs" t="Include" />
+          <e p="Options.cs" t="Include" />
+          <e p="Paths.cs" t="Include" />
+        </e>
+        <e p="zb.png" t="Include" />
+        <e p="ZzukBot.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Updater" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Updater.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ZzukBot.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

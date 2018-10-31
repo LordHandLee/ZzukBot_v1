@@ -37,29 +37,39 @@ namespace ZzukBot.GUI_Forms
             InitializeComponent();
             Text += " - " + Assembly.GetExecutingAssembly().GetName().Version;
             PrepareForLaunch();
-            while (true)
-            {
-                using (var login = new LoginForm())
-                {
-                    if (login.ShowDialog() == DialogResult.OK)
-                    {
-                        string reason;
-                        if (AuthProcessor.Instance.Auth(login.Email, login.Password, out reason))
-                        {
-                            Task.Run(() => EndLaunchPrepare());
-                            return;
-                        }
-                        else
-                        {
-                            MessageBox.Show($"Authentication failed: {reason}");
-                        }
-                    }
-                    else
-                    {
-                        Environment.Exit(0);
-                    }
-                }
-            }
+
+            var loadDetour = "MOV [0xCE8978], EAX[|]" +
+"pushfd[|]" +
+"pushad[|]" +
+"push EAX[|]" +
+"call [|addr|][|]" +
+"popad[|]" +
+"popfd[|]" +
+"jmp 0x006CA233[|]";
+            var memcpyDetour = "PUSH ESI[|]" +
+        "PUSH EDI[|]" +
+        "CLD[|]" +
+        "MOV EDX, [ESP+20][|]" +
+        "MOV ESI, [ESP+16][|]" +
+        "MOV EAX, [ESP+12][|]" +
+        "MOV ECX, EDX[|]" +
+        "MOV EDI, EAX[|]" +
+        "pushfd[|]" +
+        "pushad[|]" +
+        "PUSH EDI[|]" +
+        "PUSH ECX[|]" +
+        "PUSH ESI[|]" +
+        "call [|addr|][|]" +
+        "popad[|]" +
+        "popfd[|]" +
+        "POP EDI[|]" +
+        "POP ESI[|]" +
+        "jmp [|addr|][|]";
+
+            SendOvers.WardenLoadDetour = loadDetour.Split(new string[] { "[|]" }, StringSplitOptions.RemoveEmptyEntries);
+            SendOvers.WardenMemCpyDetour = memcpyDetour.Split(new string[] { "[|]" }, StringSplitOptions.RemoveEmptyEntries);
+
+            Task.Run(() => EndLaunchPrepare());
         }
 
         public sealed override string Text

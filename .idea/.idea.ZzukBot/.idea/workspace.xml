@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d508a52b-5950-4c29-8c0e-a60679b6f409" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DomainManager/DomainManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DomainManager/DomainManager.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThadHack/ZzukBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ThadHack/ZzukBot.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-580814386">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="1" />
+          <entry key="cpp" value="3" />
+          <entry key="cs" value="7" />
+          <entry key="filters" value="1" />
+          <entry key="h" value="4" />
+          <entry key="resx" value="4" />
+          <entry key="vcxproj" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="7" />
+          <entry key="C++" value="7" />
+          <entry key="Config" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Resources" value="4" />
+          <entry key="Vcxproj" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1" />
+          <entry key="resx" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1" />
+          <entry key="Resources" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThadHack/OOP/Launch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding>
+                <marker date="1540800581717" expanded="true" signature="6:266" ph="..." />
+                <marker date="1540800581717" expanded="true" signature="289:3603" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="324:3601" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="380:3595" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="406:3481" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="496:1199" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="1220:1343" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="1640:1867" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="2276:2416" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="2529:2659" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="2976:3119" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="3368:3467" ph="{...}" />
+                <marker date="1540800581717" expanded="true" signature="3513:3585" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThadHack/Mem/Memory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <marker date="1540766125225" expanded="true" signature="6:273" ph="..." />
+                <marker date="1540766125225" expanded="true" signature="296:10542" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="331:10540" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="474:549" ph="///     Memory Reader Instance ... " />
+                <marker date="1540766125225" expanded="true" signature="694:778" ph="///     Initialise InternalMemoryReader ... " />
+                <marker date="1540766125225" expanded="true" signature="881:4826" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="937:1736" ph="/* Init Warden Module32First/Next hook ... */" />
+                <marker date="1540766125225" expanded="true" signature="1971:2040" ph="/* EnterWorldHook.Init(); ... */" />
+                <marker date="1540766125225" expanded="true" signature="2518:2570" ph="/* DisableCollision.Apply(); ... */" />
+                <marker date="1540766125225" expanded="true" signature="2781:3051" ph="/* CtmPatch.Apply(); ... */" />
+                <marker date="1540766125225" expanded="true" signature="4880:4955" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="4965:6317" ph="/* internal static void InjectAsm(uint parPtr, string[] parInstructions, string parPatchName = &quot;&quot;) ... */" />
+                <marker date="1540766125225" expanded="true" signature="6405:7900" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="6572:6632" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="6689:6760" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="6806:7046" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="7208:7268" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="7528:7767" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="7784:7864" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="8067:9215" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="8268:8344" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="8390:8653" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="8869:9108" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="9125:9205" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="9315:10534" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="9434:9497" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="9587:9663" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="9709:9972" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="10188:10427" ph="{...}" />
+                <marker date="1540766125225" expanded="true" signature="10444:10524" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThadHack/Properties/Resources.resx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="229" column="37" selection-start-line="229" selection-start-column="37" selection-end-line="229" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FastCallDll/dllmain.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Default</find>
+      <find>Fasm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ThadHack/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ThadHack/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DomainManager/AssemblyLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ThadHack/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ThadHack/OOP/Launch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FastCallDll/targetver.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ThadHack/Mem/Memory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FastCallDll/dllmain.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FastCallDll/stdafx.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/C++_Lumpy_Navigation/VC120/detour.vcxproj" />
+        <option value="$PROJECT_DIR$/C++_Lumpy_Navigation/VC120/recast.vcxproj" />
+        <option value="$PROJECT_DIR$/ThadHack/Properties/Resources.resx" />
+        <option value="$PROJECT_DIR$/ThadHack/OOP/Launch.cs" />
+        <option value="$PROJECT_DIR$/ThadHack/Mem/Memory.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="NetInject" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pathfinder" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FastCallDll" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ZzukBot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Release/Internal/ZzukBot.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Release/Internal" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ThadHack/ZzukBot.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d508a52b-5950-4c29-8c0e-a60679b6f409" name="Default Changelist" comment="" />
+      <created>1540799085210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540799085210</updated>
+      <workItem from="1540799094474" duration="1984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1984000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" sideWeight="0.49928367" weight="0.32884097" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50143266" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49856734" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ThadHack/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++_Lumpy_Navigation/VC120/detour.vcxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++_Lumpy_Navigation/VC120/recast.vcxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastCallDll/FastCallDll.vcxproj.filters">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainManager/AssemblyLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <marker date="1540766122128" expanded="true" signature="6:119" ph="..." />
+            <marker date="1540766122128" expanded="true" signature="144:1536" ph="{...}" />
+            <marker date="1540766122128" expanded="true" signature="238:1534" ph="{...}" />
+            <marker date="1540766122128" expanded="true" signature="292:398" ph="{...}" />
+            <marker date="1540766122128" expanded="false" signature="408:706" ph="IAssemblyLoader Members" />
+            <marker date="1540766122128" expanded="true" signature="484:686" ph="{...}" />
+            <marker date="1540766122128" expanded="true" signature="800:1528" ph="{...}" />
+            <marker date="1540766122128" expanded="true" signature="1323:1403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThadHack/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <folding>
+            <marker date="1540766125839" expanded="false" signature="6:62" ph="..." />
+            <marker date="1540766125839" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1540766125839" expanded="true" signature="553:763" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1540766125839" expanded="true" signature="940:1263" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThadHack/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <folding>
+            <marker date="1540766125871" expanded="true" signature="0:431" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1540766125871" expanded="true" signature="462:17761" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="496:625" ph="///   Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw. ... " />
+            <marker date="1540766125871" expanded="true" signature="630:979" ph="/* Diese Klasse wurde von der StronglyTypedResourceBuilder automatisch generiert ... */" />
+            <marker date="1540766125871" expanded="true" signature="1275:17759" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="1626:1637" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="1655:1805" ph="///   Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird. ... " />
+            <marker date="1540766125871" expanded="true" signature="2013:2389" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="2031:2379" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="2096:2329" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="2407:2626" ph="///   Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle ... " />
+            <marker date="1540766125871" expanded="true" signature="2826:2982" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="2844:2899" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="2916:2972" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3000:3107" ph="///   Sucht eine lokalisierte Ressource vom Typ System.Byte[]. ... " />
+            <marker date="1540766125871" expanded="true" signature="3144:3308" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3162:3298" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3326:3451" ph="///   Sucht eine lokalisierte Zeichenfolge, die VBBDa2wO42o+a/KBAca+XQ== ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="3494:3618" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3512:3608" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3636:3743" ph="///   Sucht eine lokalisierte Ressource vom Typ System.Byte[]. ... " />
+            <marker date="1540766125871" expanded="true" signature="3787:3958" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3805:3948" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="3976:4110" ph="///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol). ... " />
+            <marker date="1540766125871" expanded="true" signature="4163:4343" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="4181:4333" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="4361:4503" ph="///   Sucht eine lokalisierte Zeichenfolge, die Cannot set user mode for &amp;apos;{0}&amp;apos;. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="4560:4698" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="4578:4688" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="4716:4880" ph="///   Sucht eine lokalisierte Zeichenfolge, die The channel type &amp;apos;{0}&amp;apos; sent by the server is invalid. ä ... " />
+            <marker date="1540766125871" expanded="true" signature="4938:5077" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="4956:5067" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="5095:5243" ph="///   Sucht eine lokalisierte Zeichenfolge, die The message command &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="5297:5432" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="5315:5422" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="5450:5601" ph="///   Sucht eine lokalisierte Zeichenfolge, die The command definition &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="5665:5810" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="5683:5800" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="5828:5976" ph="///   Sucht eine lokalisierte Zeichenfolge, die The command &amp;apos;{0}&amp;apos; was not recognised. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="6037:6179" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6055:6169" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6197:6352" ph="///   Sucht eine lokalisierte Zeichenfolge, die The non-trailing parameter &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="6414:6557" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6432:6547" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6575:6711" ph="///   Sucht eine lokalisierte Zeichenfolge, die The specified nick name is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="6766:6902" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6784:6892" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="6920:7055" ph="///   Sucht eine lokalisierte Zeichenfolge, die The specified password is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="7110:7246" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7128:7236" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7264:7411" ph="///   Sucht eine lokalisierte Zeichenfolge, die The message prefix &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="7464:7598" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7482:7588" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7616:7773" ph="///   Sucht eine lokalisierte Zeichenfolge, die The quoted character &amp;apos;{0}&amp;apos; was not recognised. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="7830:7968" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7848:7958" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="7986:8122" ph="///   Sucht eine lokalisierte Zeichenfolge, die The specified real name is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="8177:8313" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="8195:8303" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="8331:8496" ph="///   Sucht eine lokalisierte Zeichenfolge, die The object provided for registration info is of an unknown type.  ... " />
+            <marker date="1540766125871" expanded="true" signature="8565:8715" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="8583:8705" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="8733:8914" ph="///   Sucht eine lokalisierte Zeichenfolge, die The registration info for a service must have a valid nick name a ... " />
+            <marker date="1540766125871" expanded="true" signature="8984:9135" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9002:9125" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9153:9342" ph="///   Sucht eine lokalisierte Zeichenfolge, die The source &amp;apos;{0}&amp;apos; of the message was not recognised as e ... " />
+            <marker date="1540766125871" expanded="true" signature="9395:9529" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9413:9519" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9547:9691" ph="///   Sucht eine lokalisierte Zeichenfolge, die The message tag &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="9741:9872" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9759:9862" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="9890:10049" ph="///   Sucht eine lokalisierte Zeichenfolge, die A target name may not contain any &amp;apos;,&amp;apos; character. ähnelt ... " />
+            <marker date="1540766125871" expanded="true" signature="10106:10244" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10124:10234" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10262:10413" ph="///   Sucht eine lokalisierte Zeichenfolge, die The trailing parameter &amp;apos;{0}&amp;apos; is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="10477:10622" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10495:10612" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10640:10785" ph="///   Sucht eine lokalisierte Zeichenfolge, die The URL scheme &amp;apos;{0}&amp;apos; is not valid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="10841:10978" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10859:10968" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="10996:11132" ph="///   Sucht eine lokalisierte Zeichenfolge, die The specified user mode is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="11187:11323" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="11205:11313" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="11341:11477" ph="///   Sucht eine lokalisierte Zeichenfolge, die The specified user name is invalid. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="11532:11668" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="11550:11658" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="11686:11862" ph="///   Sucht eine lokalisierte Zeichenfolge, die The registration info for a user must have a valid nick name and  ... " />
+            <marker date="1540766125871" expanded="true" signature="11929:12077" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="11947:12067" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="12095:12273" ph="///   Sucht eine lokalisierte Zeichenfolge, die The ISUPPORT message sent by the server contains an invalid PREFI ... " />
+            <marker date="1540766125871" expanded="true" signature="12334:12476" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="12352:12466" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="12494:12657" ph="///   Sucht eine lokalisierte Zeichenfolge, die Not enough mode parameters were specified for the given modes. äh ... " />
+            <marker date="1540766125871" expanded="true" signature="12720:12864" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="12738:12854" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="12882:13052" ph="///   Sucht eine lokalisierte Zeichenfolge, die The host name &amp;apos;{0}&amp;apos; does not resolve to a valid IP addr ... " />
+            <marker date="1540766125871" expanded="true" signature="13106:13241" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13124:13231" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13259:13419" ph="///   Sucht eine lokalisierte Zeichenfolge, die The length of a raw message must not exceed {0} characters. ähnel ... " />
+            <marker date="1540766125871" expanded="true" signature="13476:13614" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13494:13604" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13632:13782" ph="///   Sucht eine lokalisierte Zeichenfolge, die The message source &amp;apos;{0}&amp;apos; is not a user. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="13835:13969" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13853:13959" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="13987:14149" ph="///   Sucht eine lokalisierte Zeichenfolge, die The type of the given target mask &amp;apos;{0}&amp;apos; is invalid. ähn ... " />
+            <marker date="1540766125871" expanded="true" signature="14210:14352" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="14228:14342" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="14370:14527" ph="///   Sucht eine lokalisierte Zeichenfolge, die The target mask must be contain at least two characters. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="14585:14724" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="14603:14714" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="14742:14898" ph="///   Sucht eine lokalisierte Zeichenfolge, die No more than 3 mode parameters may be sent per message. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="14959:15101" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="14977:15091" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="15119:15272" ph="///   Sucht eine lokalisierte Zeichenfolge, die No more than 15 command parameters may be specified. ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="15325:15459" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="15343:15449" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="15477:15613" ph="///   Sucht eine lokalisierte Zeichenfolge, die The value cannot be an empty string ähnelt. ... " />
+            <marker date="1540766125871" expanded="true" signature="15677:15822" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="15695:15812" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="15840:16884" ph="///   Sucht eine lokalisierte Zeichenfolge, die wow.exe ... " />
+            <marker date="1540766125871" expanded="true" signature="16929:17055" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="16947:17045" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="17073:17180" ph="///   Sucht eine lokalisierte Ressource vom Typ System.Byte[]. ... " />
+            <marker date="1540766125871" expanded="true" signature="17223:17393" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="17241:17383" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="17411:17526" ph="///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap. ... " />
+            <marker date="1540766125871" expanded="true" signature="17576:17753" ph="{...}" />
+            <marker date="1540766125871" expanded="true" signature="17594:17743" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastCallDll/targetver.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastCallDll/stdafx.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThadHack/OOP/Launch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <marker date="1540800581717" expanded="true" signature="6:266" ph="..." />
+            <marker date="1540800581717" expanded="true" signature="289:3603" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="324:3601" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="380:3595" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="406:3481" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="496:1199" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="1220:1343" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="1640:1867" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="2276:2416" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="2529:2659" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="2976:3119" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="3368:3467" ph="{...}" />
+            <marker date="1540800581717" expanded="true" signature="3513:3585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThadHack/Mem/Memory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <marker date="1540766125225" expanded="true" signature="6:273" ph="..." />
+            <marker date="1540766125225" expanded="true" signature="296:10542" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="331:10540" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="474:549" ph="///     Memory Reader Instance ... " />
+            <marker date="1540766125225" expanded="true" signature="694:778" ph="///     Initialise InternalMemoryReader ... " />
+            <marker date="1540766125225" expanded="true" signature="881:4826" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="937:1736" ph="/* Init Warden Module32First/Next hook ... */" />
+            <marker date="1540766125225" expanded="true" signature="1971:2040" ph="/* EnterWorldHook.Init(); ... */" />
+            <marker date="1540766125225" expanded="true" signature="2518:2570" ph="/* DisableCollision.Apply(); ... */" />
+            <marker date="1540766125225" expanded="true" signature="2781:3051" ph="/* CtmPatch.Apply(); ... */" />
+            <marker date="1540766125225" expanded="true" signature="4880:4955" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="4965:6317" ph="/* internal static void InjectAsm(uint parPtr, string[] parInstructions, string parPatchName = &quot;&quot;) ... */" />
+            <marker date="1540766125225" expanded="true" signature="6405:7900" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="6572:6632" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="6689:6760" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="6806:7046" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="7208:7268" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="7528:7767" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="7784:7864" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="8067:9215" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="8268:8344" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="8390:8653" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="8869:9108" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="9125:9205" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="9315:10534" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="9434:9497" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="9587:9663" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="9709:9972" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="10188:10427" ph="{...}" />
+            <marker date="1540766125225" expanded="true" signature="10444:10524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThadHack/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="229" column="37" selection-start-line="229" selection-start-column="37" selection-end-line="229" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FastCallDll/dllmain.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
