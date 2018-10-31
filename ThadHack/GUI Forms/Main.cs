@@ -95,31 +95,10 @@ namespace ZzukBot.GUI_Forms
             CCManager.LoadCCs();
             Memory.Init();
             OptionManager.LoadSettings();
-            try
-            {
-                using (var wc = new WebClient())
-                {
-                    MainForm.rtbNews.Text = wc.DownloadString("http://zzukbot.com/Hk3VEXpjfj8K/Important.txt");
-                }
-            }
-            catch
-            {
-                MainForm.rtbNews.Text = "Error while fetching news";
-            }
-            IrcMonitor.Instance.MessageReceived += ChannelMessageRecieved;
-            SetupIrc();
             Enums.DynamicFlags.AdjustToRealm();
             MainForm.Enabled = true;
             ChatHook.OnNewChatMessage += updateChat;
             LoginBlock.Disable();
-        }
-
-        private void SetupIrc()
-        {
-            if (Options.UseIRC)
-            {
-                IrcMonitor.Instance.Start(Options.IRCBotChannel, Options.IRCBotNickname);
-            }
         }
 
         private void PlayBeep()
@@ -128,7 +107,6 @@ namespace ZzukBot.GUI_Forms
                 WinImports.SoundFlags.SND_ASYNC | WinImports.SoundFlags.SND_MEMORY);
         }
 
-
         internal void updateNotification(string parMessage)
         {
             Invoke(new MethodInvoker(delegate
@@ -136,7 +114,6 @@ namespace ZzukBot.GUI_Forms
                 var count = dgNotifications.Rows.Count;
                 dgNotifications.Rows.Add(DateTime.Now.ToString("HH:mm"), parMessage);
                 dgNotifications.Rows[count].Cells[1].ToolTipText = parMessage;
-                IrcMonitor.Instance.SendMessage(parMessage);
                 PlayBeep();
             }));
         }
@@ -164,9 +141,6 @@ namespace ZzukBot.GUI_Forms
                 dgChat.Rows.Add(((Enums.ChatType) e.Type).ToString(), DateTime.Now.ToString("HH:mm"), e.Owner, e.Message);
                 dgChat.Rows[count].Cells[3].ToolTipText = e.Message;
                 dgChat.CurrentCell = dgChat[0, dgChat.Rows.Count - 1];
-
-                IrcMonitor.Instance.SendMessage("[" + e.Owner + "] " + (Enums.ChatType)e.Type + ": " + e.Message);
-                //Monitor.SendChannelMessage("[" + e.Owner + "] " + (Enums.ChatType) e.Type + ": " + e.Message);
             }));
         }
 
@@ -261,10 +235,6 @@ namespace ZzukBot.GUI_Forms
                 new[] {Environment.NewLine},
                 StringSplitOptions.None);
 
-            Options.IRCBotChannel = tbIRCBotChannel.Text;
-            Options.IRCBotNickname = tbIRCBotNickname.Text;
-            Options.UseIRC = cbIRCConnect.Checked;
-
             Options.SkinUnits = cbSkinUnits.Checked;
             Options.NinjaSkin = cbNinjaSkin.Checked;
             Options.Herb = cbHerb.Checked;
@@ -272,8 +242,6 @@ namespace ZzukBot.GUI_Forms
             Options.LootUnits = cbLootUnits.Checked;
 
             OptionManager.SaveSettings();
-
-            SetupIrc();
         }
 
         /// <summary>
@@ -316,58 +284,6 @@ namespace ZzukBot.GUI_Forms
         {
             if (EngineManager.CurrentEngineType != Engines.Engines.ProfileCreation) return;
             EngineManager.EngineAs<ProfileCreator>().AddVendorWaypoint();
-        }
-
-        private static void ChannelMessageRecieved(object S, IrcMonitor.MessageArgs e)
-        {
-            var msg = e.Message.Split(' ');
-            if (!msg[0].StartsWith("!")) return;
-
-            var command = msg[0];
-            var text = "";
-            switch (command)
-            {
-                case "!help":
-                    IrcMonitor.Instance.SendMessage("Commands: !help, !say, !whisper, !guild, !group, !quit, !lua");
-                    IrcMonitor.Instance.SendMessage("Usage of chat commands: !command recipent message or !command message");
-                    IrcMonitor.Instance.SendMessage("Usage of lua command: !lua scriptcode");
-                    break;
-
-                case "!say":
-                    for (var i = 1; i < msg.Length; i++)
-                        text += msg[i] + " ";
-                    Lua.RunInMainthread("SendChatMessage('" + text + "' ,'say' , nil, nil);");
-                    break;
-
-                case "!guild":
-                    for (var i = 1; i < msg.Length; i++)
-                        text += msg[i] + " ";
-                    Lua.RunInMainthread("SendChatMessage('" + text + "' ,'guild' , nil, nil);");
-                    break;
-
-                case "!party":
-                    for (var i = 1; i < msg.Length; i++)
-                        text += msg[i] + " ";
-                    Lua.RunInMainthread("SendChatMessage('" + text + "' ,'party' , nil, nil);");
-                    break;
-
-                case "!whisper":
-                    var reciever = msg[1];
-                    for (var i = 2; i < msg.Length; i++)
-                        text += msg[i] + " ";
-                    Lua.RunInMainthread("SendChatMessage('" + text + "' ,'whisper' , nil, '" + reciever + "');");
-                    break;
-
-                case "!lua":
-                    for (var i = 1; i < msg.Length; i++)
-                        text += msg[i] + " ";
-                    Lua.RunInMainthread(text);
-                    break;
-
-                case "!quit":
-                    Environment.Exit(-1);
-                    break;
-            }
         }
 
         private void bClearVendorHotspots_Click(object sender, EventArgs e)
@@ -464,28 +380,6 @@ namespace ZzukBot.GUI_Forms
         private void rtbNews_LinkClicked(object sender, LinkClickedEventArgs e)
         {
             Process.Start(e.LinkText);
-        }
-
-        private void cbIRCConnect_Click(object sender, EventArgs e)
-        {
-            if (!cbIRCConnect.Checked)
-            {
-                var botName = tbIRCBotNickname.Text;
-                var botChannel = tbIRCBotChannel.Text;
-                if (string.IsNullOrWhiteSpace(botName))
-                {
-                    MessageBox.Show("Bot Nickname cant be empty");
-                    return;
-                }
-                if (!botChannel.StartsWith("#") || string.IsNullOrWhiteSpace(botChannel))
-                {
-                    MessageBox.Show("Channel must start with a #");
-                    return;
-                }
-                cbIRCConnect.Checked = true;
-            }
-            else
-                cbIRCConnect.Checked = false;
         }
 
         #region Profilecreation buttons & fields
@@ -704,16 +598,5 @@ namespace ZzukBot.GUI_Forms
         }
 
         #endregion
-
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    //Clipboard.SetText(ObjectManager.Player.Pointer.ToString("X"));
-        //    DirectX.RunAndSwapback((ref int count, bool ingame) =>
-        //    {
-        //        ObjectManager.EnumObjects();
-        //        ObjectManager.Player.Inventory.UseItem("Tough Jerky");
-        //    });
-
-        //}
     }
 }

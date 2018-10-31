@@ -44,6 +44,7 @@ namespace ZzukBot.GUI_Forms
             this.lGrindLoadProfile = new System.Windows.Forms.Label();
             this.bGrindRun = new System.Windows.Forms.Button();
             this.tpProfile = new System.Windows.Forms.TabPage();
+            this.cbIgnoreZ = new System.Windows.Forms.CheckBox();
             this.lAddPointAs = new System.Windows.Forms.Label();
             this.rbWaypoint = new System.Windows.Forms.RadioButton();
             this.bCreateHelp = new System.Windows.Forms.Button();
@@ -142,20 +143,10 @@ namespace ZzukBot.GUI_Forms
             this.lPassword = new System.Windows.Forms.Label();
             this.tbAccount = new System.Windows.Forms.TextBox();
             this.lAccount = new System.Windows.Forms.Label();
-            this.tpIRC = new System.Windows.Forms.TabPage();
-            this.lIRCDescription = new System.Windows.Forms.Label();
-            this.tbIRCBotChannel = new System.Windows.Forms.TextBox();
-            this.tbIRCBotNickname = new System.Windows.Forms.TextBox();
-            this.cbIRCConnect = new System.Windows.Forms.CheckBox();
-            this.lIrcBotname = new System.Windows.Forms.Label();
-            this.lIrcChannel = new System.Windows.Forms.Label();
             this.tpNotifications = new System.Windows.Forms.TabPage();
             this.dgNotifications = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tpNews = new System.Windows.Forms.TabPage();
-            this.rtbNews = new System.Windows.Forms.RichTextBox();
-            this.cbIgnoreZ = new System.Windows.Forms.CheckBox();
             this.tcMain.SuspendLayout();
             this.tpGrind.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgChat)).BeginInit();
@@ -183,10 +174,8 @@ namespace ZzukBot.GUI_Forms
             ((System.ComponentModel.ISupportInitialize)(this.nudEatAt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDrinkAt)).BeginInit();
             this.gbRelog.SuspendLayout();
-            this.tpIRC.SuspendLayout();
             this.tpNotifications.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgNotifications)).BeginInit();
-            this.tpNews.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcMain
@@ -194,9 +183,7 @@ namespace ZzukBot.GUI_Forms
             this.tcMain.Controls.Add(this.tpGrind);
             this.tcMain.Controls.Add(this.tpProfile);
             this.tcMain.Controls.Add(this.tpSettings);
-            this.tcMain.Controls.Add(this.tpIRC);
             this.tcMain.Controls.Add(this.tpNotifications);
-            this.tcMain.Controls.Add(this.tpNews);
             this.tcMain.Location = new System.Drawing.Point(12, 6);
             this.tcMain.Name = "tcMain";
             this.tcMain.SelectedIndex = 0;
@@ -361,6 +348,17 @@ namespace ZzukBot.GUI_Forms
             this.tpProfile.Size = new System.Drawing.Size(477, 467);
             this.tpProfile.TabIndex = 1;
             this.tpProfile.Text = "Profile";
+            // 
+            // cbIgnoreZ
+            // 
+            this.cbIgnoreZ.AutoSize = true;
+            this.cbIgnoreZ.Location = new System.Drawing.Point(223, 373);
+            this.cbIgnoreZ.Name = "cbIgnoreZ";
+            this.cbIgnoreZ.Size = new System.Drawing.Size(148, 17);
+            this.cbIgnoreZ.TabIndex = 14;
+            this.cbIgnoreZ.Text = "Ignore Z axis in this profile";
+            this.cbIgnoreZ.UseVisualStyleBackColor = true;
+            this.cbIgnoreZ.CheckedChanged += new System.EventHandler(this.cbIgnoreZ_CheckedChanged);
             // 
             // lAddPointAs
             // 
@@ -1466,76 +1464,6 @@ namespace ZzukBot.GUI_Forms
             this.lAccount.TabIndex = 1;
             this.lAccount.Text = "Account";
             // 
-            // tpIRC
-            // 
-            this.tpIRC.Controls.Add(this.lIRCDescription);
-            this.tpIRC.Controls.Add(this.tbIRCBotChannel);
-            this.tpIRC.Controls.Add(this.tbIRCBotNickname);
-            this.tpIRC.Controls.Add(this.cbIRCConnect);
-            this.tpIRC.Controls.Add(this.lIrcBotname);
-            this.tpIRC.Controls.Add(this.lIrcChannel);
-            this.tpIRC.Location = new System.Drawing.Point(4, 22);
-            this.tpIRC.Name = "tpIRC";
-            this.tpIRC.Padding = new System.Windows.Forms.Padding(3);
-            this.tpIRC.Size = new System.Drawing.Size(477, 467);
-            this.tpIRC.TabIndex = 5;
-            this.tpIRC.Text = "IRC";
-            this.tpIRC.UseVisualStyleBackColor = true;
-            // 
-            // lIRCDescription
-            // 
-            this.lIRCDescription.AutoSize = true;
-            this.lIRCDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lIRCDescription.Location = new System.Drawing.Point(15, 131);
-            this.lIRCDescription.Name = "lIRCDescription";
-            this.lIRCDescription.Size = new System.Drawing.Size(409, 208);
-            this.lIRCDescription.TabIndex = 5;
-            this.lIRCDescription.Text = resources.GetString("lIRCDescription.Text");
-            // 
-            // tbIRCBotChannel
-            // 
-            this.tbIRCBotChannel.Location = new System.Drawing.Point(110, 52);
-            this.tbIRCBotChannel.Name = "tbIRCBotChannel";
-            this.tbIRCBotChannel.Size = new System.Drawing.Size(114, 20);
-            this.tbIRCBotChannel.TabIndex = 4;
-            // 
-            // tbIRCBotNickname
-            // 
-            this.tbIRCBotNickname.Location = new System.Drawing.Point(110, 26);
-            this.tbIRCBotNickname.Name = "tbIRCBotNickname";
-            this.tbIRCBotNickname.Size = new System.Drawing.Size(114, 20);
-            this.tbIRCBotNickname.TabIndex = 3;
-            // 
-            // cbIRCConnect
-            // 
-            this.cbIRCConnect.AutoCheck = false;
-            this.cbIRCConnect.AutoSize = true;
-            this.cbIRCConnect.Location = new System.Drawing.Point(15, 81);
-            this.cbIRCConnect.Name = "cbIRCConnect";
-            this.cbIRCConnect.Size = new System.Drawing.Size(99, 17);
-            this.cbIRCConnect.TabIndex = 2;
-            this.cbIRCConnect.Text = "Connect to IRC";
-            this.cbIRCConnect.UseVisualStyleBackColor = true;
-            this.cbIRCConnect.Click += new System.EventHandler(this.cbIRCConnect_Click);
-            // 
-            // lIrcBotname
-            // 
-            this.lIrcBotname.AutoSize = true;
-            this.lIrcBotname.Location = new System.Drawing.Point(15, 29);
-            this.lIrcBotname.Name = "lIrcBotname";
-            this.lIrcBotname.Size = new System.Drawing.Size(89, 13);
-            this.lIrcBotname.TabIndex = 1;
-            this.lIrcBotname.Text = "Nickname of Bot:";
-            // 
-            // lIrcChannel
-            // 
-            this.lIrcChannel.AutoSize = true;
-            this.lIrcChannel.Location = new System.Drawing.Point(15, 55);
-            this.lIrcChannel.Name = "lIrcChannel";
-            this.lIrcChannel.Size = new System.Drawing.Size(49, 13);
-            this.lIrcChannel.TabIndex = 0;
-            this.lIrcChannel.Text = "Channel:";
-            // 
             // tpNotifications
             // 
             this.tpNotifications.Controls.Add(this.dgNotifications);
@@ -1578,38 +1506,6 @@ namespace ZzukBot.GUI_Forms
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
-            // tpNews
-            // 
-            this.tpNews.Controls.Add(this.rtbNews);
-            this.tpNews.Location = new System.Drawing.Point(4, 22);
-            this.tpNews.Name = "tpNews";
-            this.tpNews.Padding = new System.Windows.Forms.Padding(3);
-            this.tpNews.Size = new System.Drawing.Size(477, 467);
-            this.tpNews.TabIndex = 4;
-            this.tpNews.Text = "News";
-            this.tpNews.UseVisualStyleBackColor = true;
-            // 
-            // rtbNews
-            // 
-            this.rtbNews.Location = new System.Drawing.Point(15, 10);
-            this.rtbNews.Name = "rtbNews";
-            this.rtbNews.ReadOnly = true;
-            this.rtbNews.Size = new System.Drawing.Size(432, 436);
-            this.rtbNews.TabIndex = 0;
-            this.rtbNews.Text = "";
-            this.rtbNews.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtbNews_LinkClicked);
-            // 
-            // cbIgnoreZ
-            // 
-            this.cbIgnoreZ.AutoSize = true;
-            this.cbIgnoreZ.Location = new System.Drawing.Point(223, 373);
-            this.cbIgnoreZ.Name = "cbIgnoreZ";
-            this.cbIgnoreZ.Size = new System.Drawing.Size(148, 17);
-            this.cbIgnoreZ.TabIndex = 14;
-            this.cbIgnoreZ.Text = "Ignore Z axis in this profile";
-            this.cbIgnoreZ.UseVisualStyleBackColor = true;
-            this.cbIgnoreZ.CheckedChanged += new System.EventHandler(this.cbIgnoreZ_CheckedChanged);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1620,7 +1516,7 @@ namespace ZzukBot.GUI_Forms
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Main";
-            this.Text = "ZzukBot";
+            this.Text = "ZzukBot [Improved]";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
             this.tcMain.ResumeLayout(false);
@@ -1665,11 +1561,8 @@ namespace ZzukBot.GUI_Forms
             ((System.ComponentModel.ISupportInitialize)(this.nudDrinkAt)).EndInit();
             this.gbRelog.ResumeLayout(false);
             this.gbRelog.PerformLayout();
-            this.tpIRC.ResumeLayout(false);
-            this.tpIRC.PerformLayout();
             this.tpNotifications.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgNotifications)).EndInit();
-            this.tpNews.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1751,8 +1644,6 @@ namespace ZzukBot.GUI_Forms
         private System.Windows.Forms.Label lBreakFor;
         internal System.Windows.Forms.NumericUpDown nudForceBreakAfter;
         private System.Windows.Forms.Label lForceBreak;
-        private System.Windows.Forms.TabPage tpNews;
-        internal System.Windows.Forms.RichTextBox rtbNews;
         internal System.Windows.Forms.GroupBox gbVendor;
         internal System.Windows.Forms.GroupBox gbFaction;
         internal System.Windows.Forms.Label lRestockItems;
@@ -1793,13 +1684,6 @@ namespace ZzukBot.GUI_Forms
         internal System.Windows.Forms.Button bAddFaction;
         internal System.Windows.Forms.Button bClearFactions;
         internal System.Windows.Forms.Label lGrindLoadProfile;
-        private System.Windows.Forms.TabPage tpIRC;
-        private System.Windows.Forms.Label lIrcBotname;
-        private System.Windows.Forms.Label lIrcChannel;
-        internal System.Windows.Forms.CheckBox cbIRCConnect;
-        internal System.Windows.Forms.TextBox tbIRCBotChannel;
-        internal System.Windows.Forms.TextBox tbIRCBotNickname;
-        private System.Windows.Forms.Label lIRCDescription;
         internal System.Windows.Forms.CheckBox cbMine;
         internal System.Windows.Forms.CheckBox cbHerb;
         internal System.Windows.Forms.CheckBox cbSkinUnits;

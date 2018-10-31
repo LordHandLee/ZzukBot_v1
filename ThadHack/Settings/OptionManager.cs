@@ -154,18 +154,6 @@ namespace ZzukBot.Settings
                 ref Options.ForceBreakAfter,
                 Main.MainForm.nudForceBreakAfter);
 
-            GetElement("UseIRC",
-                ref Options.UseIRC,
-                Main.MainForm.cbIRCConnect);
-
-            GetElement("IRCBotNickname",
-                ref Options.IRCBotNickname,
-                Main.MainForm.tbIRCBotNickname);
-
-            GetElement("IRCBotChannel",
-                ref Options.IRCBotChannel,
-                Main.MainForm.tbIRCBotChannel);
-
             GetElement("SkinUnits",
                 ref Options.SkinUnits,
                 Main.MainForm.cbSkinUnits);

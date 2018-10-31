@@ -128,59 +128,10 @@
     <Compile Include="Engines\Grind\States\StateDoRandomShit.cs" />
     <Compile Include="Engines\Grind\States\stateWalkBackToGrind.cs" />
     <Compile Include="Engines\Grind\StuckHelper.cs" />
-    <Compile Include="GUI Forms\LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI Forms\LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Engines\ProfileCreation\ProfileCreator.cs" />
     <Compile Include="Helpers\Calc.cs" />
     <Compile Include="Helpers\DebugAssist.cs" />
     <Compile Include="Helpers\HardwareId.cs" />
-    <Compile Include="Helpers\IrcDotNet\CircularBufferStream.cs" />
-    <Compile Include="Helpers\IrcDotNet\Collections\CollectionsUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\Collections\ReadOnlyDictionary.cs" />
-    <Compile Include="Helpers\IrcDotNet\Collections\ReadOnlySet.cs" />
-    <Compile Include="Helpers\IrcDotNet\CollectionUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\Ctcp\CtcpClient.cs" />
-    <Compile Include="Helpers\IrcDotNet\Ctcp\CtcpClientMessageProcessing.cs" />
-    <Compile Include="Helpers\IrcDotNet\Ctcp\CtcpClientMessageSending.cs" />
-    <Compile Include="Helpers\IrcDotNet\Ctcp\CtcpEventArgs.cs" />
-    <Compile Include="Helpers\IrcDotNet\DebugUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcFloodPreventer.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcMessageReceiveHandler.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcMessageReceiver.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcMessageSendHandler.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcMessageSource.cs" />
-    <Compile Include="Helpers\IrcDotNet\IIrcMessageTarget.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcChannel.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcChannelCollection.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcChannelInfo.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcChannelUser.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcChannelUserCollection.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcClient.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcClientMessageProcessing.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcClientMessageSending.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcEventArgs.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcLocalUser.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcNetworkInfo.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcRegistrationInfo.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcServer.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcServerInfo.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcServerStatisticalEntry.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcStandardFloodPreventer.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcTargetMask.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcUser.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcUserCollection.cs" />
-    <Compile Include="Helpers\IrcDotNet\IrcUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\MessageProcessorAttribute.cs" />
-    <Compile Include="Helpers\IrcDotNet\ReflectionUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\SafeLineReader.cs" />
-    <Compile Include="Helpers\IrcDotNet\StandardIrcClient.cs" />
-    <Compile Include="Helpers\IrcDotNet\TextUtilities.cs" />
-    <Compile Include="Helpers\IrcDotNet\TwitchIrcClient.cs" />
-    <Compile Include="Helpers\IrcMonitor.cs" />
     <Compile Include="Helpers\Wait.cs" />
     <Compile Include="Engines\Grind\Info.cs" />
     <Compile Include="Engines\Grind\Info\Combat.cs" />
@@ -264,9 +215,6 @@
     <Compile Include="Settings\Paths.cs" />
     <EmbeddedResource Include="GUI Forms\CC Selector.resx">
       <DependentUpon>CC Selector.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI Forms\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
