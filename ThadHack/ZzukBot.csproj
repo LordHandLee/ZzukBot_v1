@@ -84,6 +84,7 @@
     <Compile Include="Constants\Structs.cs" />
     <Compile Include="Constants\WinImports.cs" />
     <Compile Include="Engines\EngineManager.cs" />
+    <Compile Include="Engines\Grind\Info\NearbyPlayersHelper.cs" />
     <Compile Include="FSM\Engine.cs" />
     <Compile Include="FSM\State.cs" />
     <Compile Include="GreyMagic\AllocatedMemory.cs" />

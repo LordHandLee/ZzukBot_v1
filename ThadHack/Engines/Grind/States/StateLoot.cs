@@ -16,7 +16,7 @@ namespace ZzukBot.Engines.Grind.States
         private int randomOpenLootDelay;
         private int randomTakeLootDelay;
 
-        internal override int Priority => 36;
+        internal override int Priority => 46;
 
         internal override bool NeedToRun => Grinder.Access.Info.Loot.NeedToLoot && !Grinder.Access.Info.Vendor.GoBackToGrindAfterVendor
                                             && !Grinder.Access.Info.Vendor.TravelingToVendor;
@@ -33,7 +33,7 @@ namespace ZzukBot.Engines.Grind.States
                     if (enumerator.Current.Name.ToLower().Contains("clam"))
                     {
                         ObjectManager.Player.Inventory.UseItem(enumerator.Current);
-                        if (Wait.For("OpenClamDelay", 500, true))
+                        if (Wait.For("OpenClamDelay", 1500, true))
                         {
                             ObjectManager.Player.LootAll();
                         }
