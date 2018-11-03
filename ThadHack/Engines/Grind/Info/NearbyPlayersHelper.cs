@@ -11,7 +11,7 @@ namespace ZzukBot.Engines.Grind.Info
     {
         private static Dictionary<string, DateTime> nearbyPlayers = new Dictionary<string, DateTime>();
 
-        internal bool NeedToBreak
+        internal bool HasPlayersNearby
         {
             get
             {

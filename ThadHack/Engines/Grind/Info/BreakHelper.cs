@@ -48,7 +48,7 @@ namespace ZzukBot.Engines.Grind.Info
                     }
                     return true;
                 }
-                else if (NearbyPlayersHelper.NeedToBreak)
+                else if (NearbyPlayersHelper.HasPlayersNearby)
                 {
                     ResumeAt = Environment.TickCount + Options.BreakFor * 60 * 1000 + this.ran.Next(-120000, 120000);
                     _NeedToBreak = true;
